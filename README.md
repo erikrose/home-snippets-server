@@ -19,6 +19,7 @@ See also: <https://bugzilla.mozilla.org/show_bug.cgi?id=592431>
         * `virtualenv --no-site-packages env`
         * `./env/activate`
         * `pip install -r requirements/dev.txt`
+        * `pip install -r requirements/compiled.txt`
 * Prepare a `settings_local.py` file:
     * `cp settings_local.py-dist-dev settings_local.py`
     * Local config tweaks go here, though existing defaults may be sufficient to start hacking.
